@@ -1,0 +1,25 @@
+{
+    "intents": [
+        {
+            "tag": "balance",
+            "patterns": [ "what is my balance", "show balance", "account balance" ],
+            "responses": [ "Your account balance is $5,340.23.", "You have $5,340.23 in your account." ]
+        },
+        {
+            "tag": "loan_status",
+            "patterns": [ "loan status", "is my loan approved", "check my loan" ],
+            "responses": [ "Your loan is currently under review.", "Your loan was approved yesterday." ]
+        },
+        {
+            "tag": "transactions",
+            "patterns": [ "recent transactions", "last 5 transactions", "transaction history" ],
+            "responses": [ "Your last 5 transactions were sent to your registered email.", "You spent $80 at Amazon and $15 at Starbucks yesterday." ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [ "hi", "hello", "hey" ],
+            "responses": [ "Hi there! How can I help you today?", "Hello! What can I assist you with?" ]
+        }
+    ]
+}
+
